@@ -4,6 +4,7 @@ sdkconfig
 sdkconfig.old
 dependencies.lock
 managed_components/
+dist/
 
 # CH32 Build artifacts
 ch32_code/obj/
