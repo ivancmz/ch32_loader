@@ -1,0 +1,9 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=5.0.0'
+  espressif/console_simple_init: ^1.1.0
+  ivancmz/wch_isp:
+    version: '*'
+    override_path: '../../../'  # Points to components/wch_isp/

@@ -1,0 +1,35 @@
+# ESP-IDF Build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# CH32 Build artifacts
+ch32_code/obj/
+ch32_code/*.elf
+ch32_code/*.hex
+ch32_code/*.bin
+ch32_code/*.lst
+ch32_code/*.map
+
+# Reference directory (read-only, not to be modified)
+reference/
+
+# IDE and Editor files
+.vscode/.cortex-debug*
+.vscode/launch.json.bak
+*.swp
+*.swo
+*~
+.DS_Store
+CLAUDE.md
+.CLAUDE/
+.claude/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log

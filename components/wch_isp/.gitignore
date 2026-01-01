@@ -1,0 +1,26 @@
+# Build artifacts
+*.o
+*.d
+*.a
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Component manager
+dependencies.lock
+managed_components/
+
+# Test builds
+build/
+
+# Example build artifacts
+examples/*/build/
+examples/*/sdkconfig
+examples/*/sdkconfig.old
+examples/*/.vscode/
+examples/*/.devcontainer/

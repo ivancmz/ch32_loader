@@ -1,0 +1,46 @@
+menu "WCH ISP Configuration"
+
+    config WCH_ISP_UART_PORT
+        int "UART port number"
+        default 2
+        range 0 2
+        help
+            UART port number for ISP communication (0, 1, or 2)
+
+    config WCH_ISP_UART_TX_PIN
+        int "UART TX pin"
+        default 17
+        help
+            GPIO number for UART TX
+
+    config WCH_ISP_UART_RX_PIN
+        int "UART RX pin"
+        default 16
+        help
+            GPIO number for UART RX
+
+    config WCH_ISP_RST_PIN
+        int "RST pin"
+        default 4
+        help
+            GPIO number for CH32 RST control
+
+    config WCH_ISP_BOOT0_PIN
+        int "BOOT0 pin"
+        default 5
+        help
+            GPIO number for CH32 BOOT0 control
+
+    config WCH_ISP_TIMEOUT_MS
+        int "Command timeout (ms)"
+        default 1000
+        help
+            Timeout for ISP commands in milliseconds
+
+    config WCH_ISP_ERASE_TIMEOUT_MS
+        int "Erase timeout (ms)"
+        default 5000
+        help
+            Timeout for erase operations in milliseconds
+
+endmenu

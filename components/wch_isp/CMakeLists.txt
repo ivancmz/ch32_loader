@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "src/wch_isp.c"
+        "src/wch_isp_protocol.c"
+        "src/wch_isp_flash.c"
+    INCLUDE_DIRS
+        "include"
+    PRIV_INCLUDE_DIRS
+        "src"
+    REQUIRES
+        driver
+)

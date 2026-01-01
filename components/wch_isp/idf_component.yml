@@ -1,0 +1,18 @@
+## IDF Component Manager Manifest File
+version: "1.0.0"
+description: "WCH ISP component for programming CH32V30x microcontrollers via UART"
+url: https://github.com/ivancmz/ch32_loader
+repository: https://github.com/ivancmz/ch32_loader
+documentation: https://github.com/ivancmz/ch32_loader/blob/main/components/wch_isp/README.md
+license: GPL-2.0-only
+
+dependencies:
+  idf:
+    version: ">=5.0.0"
+
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+  - esp32c6
